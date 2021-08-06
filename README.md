@@ -14,10 +14,13 @@ Then launched the SLAM gmapping node:
 $ roslaunch diff_drive_bot gmapping.launch
 ```
 
-After that I tried to launch the keyboard_teleop.py to control the robot but did not work at all. So instead, I launched turtlebot3_teleop package and surprisingly worked very well in controlling this robot!
+After that I tried to launch the keyboard_teleop.py to control the robot but did not work at all. So instead, I launched turtlebot3_teleop package and as you can see, surprisingly worked very well in controlling this robot!
 ```
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+
+![key teleop](https://user-images.githubusercontent.com/83130573/128513077-3ab7e4ef-a570-4a41-b0fb-6bdb39d405ee.PNG)
+
 
 Finally, I saved the map using:
 ```
